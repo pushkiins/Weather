@@ -2,7 +2,6 @@ import React from 'react';
 import {Text, View, StyleSheet, Image} from 'react-native';
 import appTheme from '../constants/theme';
 import {useAppSelector} from '../store/hooks/redux';
-// import {Weather} from '../store/models/WeatherItem';
 import {getTemp} from '../utils/utils';
 
 const MainInfo = props => {

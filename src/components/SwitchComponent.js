@@ -3,7 +3,6 @@ import {View, StyleSheet} from 'react-native';
 import SwitchSelector from 'react-native-switch-selector';
 import appTheme from '../constants/theme';
 import {useAppDispatch, useAppSelector} from '../store/hooks/redux';
-import {Format} from '../store/models/Format';
 import {weatherSlice} from '../store/reducers/WeatherSlice';
 
 const Switch = SwitchSelector;
